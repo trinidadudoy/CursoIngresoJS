@@ -1,0 +1,82 @@
+www.w3school.com
+
+crear usuario en gifja
+octavio villegas
+
+https://github.com/octaviovillegas/CursoIngresoJS
+
+
+ALERT()
+SIN ESPACIO ENTRE PALABRA Y PARWENTESIS
+
+LOS ESPACIOS DIVIDIN COSAS.
+
+-PARA QUE SE VEA REFLAJADO HAY QUE HACER CONTROL-S 
+todo lleva ; al final de la línea
+
+-la ventana PROMT
+
+-cada nombre declara una variable y termina con ;
+
+
+-cuando este en gris es un comentario -> se comienza copn //
+
+-para hacer c omentnado:
+
+/*...
+TODO LO PROGRAMADO
+*/...
+
+para poner texto largo o grandes pedazos de cogidos.
+
+-concatenar: es juntar
+
+-promet siempre va a tener un = y donde ponerlo
+-alert("mi nombre es: "+ nombre + " y mi apellido es " + apellido);
+
+-ejercicio 2
+	var apellido= "ujjayi";
+	var nombre;
+	nombre = "trimurti";
+	nombre = prompt("ingrese su nombre", "n n");
+	alert("mi nombre es : "+ nombre);
+
+}
+
+-ejercicio 3
+
+id es identificador que esta del html ,que indica cual de los c uadros de textos es 
+
+- <input type="text"  placeholder="Su nombre" id="elNombre">
+
+
+	var miVariable
+	miVariable = document.getElementById('elNombre').value;
+	//sino pongo el value me tira error de oBJET HTML
+	alert(miVariable);
+-para bloquear un cuadro de texto hay que poner READONLY
+
+	<input type="text" readonly placeholder="Su nombre" id="elNombre">
+
+-ejercicio 4 
+
+-document.getElementById("elNombre").value = miTexto;
+
+var miTexo (el texto va todo junto y lo diferencio con mayusculas)
+miTexto = 
+
+document.get(tabulear asi sale toda la palanbra)(EL ID QUE LO SACO DEL HTML).value=(lavariable del promt); <- punto y coma
+
+
+-> a traves de f12 puedo ver el error en el codigo
+
+-> todo esto está en http://www.octaviovillegas.com.ar/cursoutn/
+
+->https://github.com/
+quierohaceryoga@gmail.com
+
+a la derecha yourprofile
+repositore
+curso ingreso
+
+
