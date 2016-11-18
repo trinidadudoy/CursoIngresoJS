@@ -1,18 +1,25 @@
-www.w3school.com
+http://www.w3schools.com/
+
+https://vip-proxy-cli-ka.mecon.ar/?event=logout
+
+
+-> todo esto está en http://www.octaviovillegas.com.ar/cursoutn/
+
+http://www.octaviovillegas.com.ar/cursoutn/8-TPs/FerreteFacturacion.html
 
 crear usuario en gifja
 octavio villegas
 
 https://github.com/octaviovillegas/CursoIngresoJS
+quierohaceryoga@gmail.com 
+Disfrutar21
 
 
-ALERT()
-SIN ESPACIO ENTRE PALABRA Y PARWENTESIS
-
-LOS ESPACIOS DIVIDIN COSAS.
-
+-ALERT()
+-SIN ESPACIO ENTRE PALABRA Y PARWENTESIS
+-LOS ESPACIOS DIVIDIN COSAS.
 -PARA QUE SE VEA REFLAJADO HAY QUE HACER CONTROL-S 
-todo lleva ; al final de la línea
+-todo lleva ; al final de la línea
 
 -la ventana PROMT
 
@@ -20,8 +27,7 @@ todo lleva ; al final de la línea
 
 
 -cuando este en gris es un comentario -> se comienza copn //
-
--para hacer c omentnado:
+-para hacer comentnado:
 
 /*...
 TODO LO PROGRAMADO
@@ -31,7 +37,7 @@ para poner texto largo o grandes pedazos de cogidos.
 
 -concatenar: es juntar
 
--promet siempre va a tener un = y donde ponerlo
+-prompt siempre va a tener un = y donde ponerlo
 -alert("mi nombre es: "+ nombre + " y mi apellido es " + apellido);
 
 -ejercicio 2
@@ -70,7 +76,6 @@ document.get(tabulear asi sale toda la palanbra)(EL ID QUE LO SACO DEL HTML).val
 
 -> a traves de f12 puedo ver el error en el codigo
 
--> todo esto está en http://www.octaviovillegas.com.ar/cursoutn/
 
 ->https://github.com/
 quierohaceryoga@gmail.com
@@ -78,5 +83,226 @@ quierohaceryoga@gmail.com
 a la derecha yourprofile
 repositore
 curso ingreso
+
+- var miVariable
+  miVariable = document.get (y aparece getElementById) a continuación pegado (EL CORRESPONDIENTE ID).value;
+
+***reempaso
+google chrome como nuestra herramienta 
+como hacer comentario de linea;de bloque;como mostrar mensaje siempre en minuscula sin parentesis y termina siempre en punto y coma
+o puede ser una variable que para que pueda funcionar habria uqedeclararla antes; declaramos variable var varibleNormal; como nombrar una variable
+la primer parte cn minuscla el resto empieza con mayuscula;ventana Prompt qu si o si debia retornar  un dato -> =prompt() . en el promt hay
+parametros uqe se serapn por coma promt("mensaje" el primero, "nombre"); esto termina en ;. 
+concatenar no es lo mismo que pasar x parametros
+document. es el html y despues tenemos el metodo getel y sale getelementbyid. esto m devolvia un id, un objeto y hay que tomar el value
+document.getElementById('elId').value es de doble via, le puedo asignar un valor  value="algo"; o tomar una variable y cargar esa variabele;
+otra=Variable=document.getElemenById('elId').value;
+
+herramienta que nos ayude a encontrar los errores es google chrome, apretando f12 = "vista del desarrollador"
+
+DEVAGUEAR = 
+
+CONSOLA= puedo tirar comandos y recibir información. nuestra forma de comunicación.
+
+para mostrar mensaje =  tengo que acceder a consola
+
+(function Mostrar ()
+
+var unaVariable="datos";
+console.log("primer mensaje"); esto es para nosotros no para que lo vea el usuari
+console.info("mensaje:",unaVaiable); <- puedo poner dos  variables
+
+
+-error comun es poner 
+var mi nombre; deberia ponerse 
+var miNombre;
+
+-si toco control d  me marca todos los nombres en entrada salida
+y cuando pego lo seleccionado control b
+
+
+
+EJERCICIO 5
+DESPUES DE DECLARAR MI VARIABLE Y MI EDAD, ES NECESARIO PONER
+
+
+miNombre= document.getElementById('elNombre').value;
+console.info("linea final:",unaVariable);
+es paras mostrar mensaje que lo veo en la consola. a diferencia del alert lo veo en la página
+dentro del alert, sumo informacion con + . no suma, CONCATENA.
+
+VARIABLES DEL EJERICIIO
+6
+/*function sumar()
+{
+
+ var numeroUno;
+ var numeroDos;
+
+
+numeroUno=document.getElementById('numeroUno').value;
+numeroDos=document.getElementById('numeroDos').value;
+
+
+alert(numeroUno+numeroDos);
+}
+
+DE LAS DOS OPCIONES PUEDE FUNCIONAR CORRECTAMENT
+
+OTRA TERCER OPCION->
+
+*/
+/*
+function sumar()
+{
+
+ var numeroUno;
+ var numeroDos;
+ var suma;
+
+numeroUno=document.getElementById('numeroUno').value;
+numeroDos=document.getElementById('numeroDos').value;
+numeroUno= parseInt(numeroUno);
+numeroDos= parseInt(numeroDos);
+suma= numeroUno+numeroDos;
+
+alert("la suma es "+suma);
+}
+
+/*
+function sumar()
+{
+
+ var x=33;
+ var y=33;
+ var suma;
+
+x=document.getElementById('x').value;
+y=document.getElementById('y').value;
+
+alert(parseInt(x)+parseInt(y));
+
+}
+
+igual me  falta creo que luego del getelementByid algo falta 
+
+
+EJERCICIO 6, EL PROFE RECOIMIENDA PONER TODO CORRECTAMENTE, ANTES QUE ABREVIAR
+Enunciado:
+Debemos lograr tomar Los numeros por ID , transformarlos a enteros (parseInt) y Sumarlos. 
+Mostar el resulto por medio de "ALERT"
+ej.: "la suma es 750"
+
+
+function sumar()
+{
+
+ var numeroUno=33;
+ var numeroDos=33;
+ var suma;
+
+numeroUno=document.getElementById('numeroUno').value;
+numeroDos=document.getElementById('numeroDos').value;
+suma= parseInt(numeroUno)+parseInt(numeroDos);
+
+alert(numeroUno+numeroDos);
+
+}
+
+funciona sin el parserint->
+
+function dividir()
+{
+ var numeroUno=12;
+ var numeroDos=12;
+ var dividir;
+
+numeroUno=document.getElementById('numeroUno').value;
+numeroDos=document.getElementById('numeroDos').value;
+dividir=numeroUno/numeroDos;
+
+alert("la división es"+dividir);
+}
+
+SOLAMENTE HAY QUE DEJARLO EN LA SUMA :
+function sumar()
+{	
+ var numeroUno;
+ var numeroDos;
+ var suma;
+
+numeroUno=document.getElementById('numeroUno').value;
+numeroDos=document.getElementById('numeroDos').value;
+suma= parseInt(numeroUno)+parseInt(numeroDos);
+
+alert("la suma es "+sumar);
+	
+}
+
+
+----------------------------------------------------------------------
+EXPLICA TEMA Y HAY QUE HACER TP
+
+
+lo que queda de la division, el resto
+para sacar el resto 
+
+el 10 es divisible por el 2
+2 dividido 10, el resto es 200
+
+
+el resto de 6%10 es 6
+
+ingreso dos numros 
+
+////////////////////////////////////
+
+EJERCICIO 9
+
+
+
+PARA EL PARCIAL .>
+
+SEMANA POR cada itep del parcial
+
+tres primeros ejercucios, para hcer del parcial y del recuperatorio
+tmb hay que hacer del tp los 3 primeros ejercicios
+
+para el lunes
+hay que hacer los 10 ejercicios que ya hicimos
+
+REPASAR !! 
+
+
+tp 2 Y 3
+más los ejercicios de que ya hicimos
+
+
+hay que hacer 19 para el lunes
+
+
+
+
+*****************
+tp ejercicio 1 
+
+***********chequear jvsc7 sobre el sumar
+*********necesito el js de ferretefacturación
+
+
+
+
+dos fotos 4x 4
+libreta y legajos !!!
+------------------------------TRAER LOS JS CORREGIDOS
+
+
+
+
+VER LOS FORTS DEL PROFESOR OCTAVIO 
+que van a estar todos los resueltos de nuestrños compañero
+sen ghibu
+
+
 
 
